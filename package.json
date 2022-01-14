@@ -1,19 +1,16 @@
 {
     "name": "fintechAPI",
     "version": "1.0.0",
-    "main": "index.ts",
+    "main": "index.js",
     "license": "MIT",
     "scripts": {
-        "dev": "nodemon src/index.ts"
+        "dev": "nodemon src/index.js"
     },
     "dependencies": {
         "express": "^4.17.1",
         "uuid": "^8.3.2"
     },
     "devDependencies": {
-        "@types/node": "^17.0.8",
-        "nodemon": "^2.0.15",
-        "ts-node": "^10.4.0",
-        "typescript": "^4.5.4"
+        "nodemon": "^2.0.15"
     }
 }
